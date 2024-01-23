@@ -9,5 +9,7 @@ print("\n")
 print("Printing the even index letters in the string.")
 # - actual code
 name = "Sheena Mae"
-for i in range(10):
+for i in range(0, 10, 2):
     print(name[i])
+    
+
