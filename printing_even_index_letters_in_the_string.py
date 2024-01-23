@@ -12,4 +12,15 @@ name = "Sheena Mae"
 for i in range(0, 10, 2):
     print(name[i])
     
+    
+print("\n")
+# OR 
+print("--------------------")
+print("\n")
 
+
+for i in range(10):
+    if (i%2) == 0:
+        print(name[i])
+        
+# Thus the even index letters in the string are S,e,n,,<space>, and a
